@@ -6,8 +6,185 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>123 Viagem</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <script src="https://kit.fontawesome.com/2da2d890c1.js" crossorigin="anonymous"></script> -->
 </head>
 <body>
-    
+    <header>
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <h1>Logo</h1>
+        </div>
+        <button>
+            <i class="fa fa-search"></i>
+        </button>
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <nav>
+                    <ul>
+                        <li>
+                            <i class="fa fa-plane"></i>
+                            <span>Voo</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-bed"></i>
+                            <span>Hotel</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-car"></i>
+                            <span>Aluguel</span>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div>
+                    <h1>Viaje pelo mundo conosco</h1>
+                    <form>
+                        <div>
+                            <label for="de">De</label>
+                            <input type="text" id="de" placeholder="Partindo de" required>
+                            <label for="para">Para</label>
+                            <input type="text" id="para" placeholder="Chegando em" required>
+                        </div>
+                        <button type="submit">Pesquise e encontre datas</button>
+                    </form>
+                </div>
+
+                <div>
+                    <h1>Encontre os melhores hotéis</h1>
+                    <p>Reserve um hotel conosco e obtenha as melhores tarifas e promoções.</p>
+                    <p>Nós conhecemos hotéis - nós conhecemos conforto.</p>
+                    <button type="submit">Pesquisar Hotéis</button>
+                </div>
+
+                <div>
+                    <h1>Melhor aluguel de carros do mundo!</h1>
+                    <p><mark>DESCONTO!</mark>Oferta especial se reservar hoje: 25% de desconto em qualquer lugar do mundo com CarServiceRentalRUs</p>
+                    <form>
+                        <input type="text" placeholder="Ponto de coleta" required>
+                        <button type="submit">Pesquisar Disponibilidade</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Boas ofertas agora mesmo</h2>
+            <p>Até <strong>50%</strong> de desconto.</p>
+            <div>
+                <img src="./images/cinqueterre.jpg" alt="Foto de Cinque Terre">
+                <p>Cinque Terre</p>
+
+                <img src="./images/newyork.jpg" alt="Foto de Nova Iorque">
+                <p>Nova Iorque</p>
+
+                <img src="./images/sanfran.jpg" alt="Foto de São Francisco">
+                <p>São Francisco</p>
+
+                <img src="./images/pisa.jpg" alt="Foto da Torre de Pisa">
+                <p>Pisa</p>
+
+                <img src="./images/paris.jpg" alt="Foto de Paris">
+                <p>Paris</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Explore a Natureza</h2>
+            <p>Viaje conosco e veja a natureza no seu melhor.</p>
+            <div>
+                <img src="./images/ocean.jpg" alt="Foto do Oceano">
+                <h3>Costa Oeste, Noruega</h3>
+                <p>Ida e volta a partir de &dollar;79</p>
+                <p>É um desenvolvimento, mas o mundo é como uma maquiagem, mas é apenas vida.</p>
+                <p>Comprar Passagens</p>
+            </div>
+
+            <div>
+                <img src="./images/mountains.jpg" alt="Foto de Montanhas">
+                <h3>Montanhas, Áustria</h3>
+                <p>Ida a partir de &dollar;39</p>
+                <p>É um desenvolvimento, mas o mundo é como uma maquiagem, mas é apenas vida.</p>
+                <p>Comprar Passagens</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Receba as melhores ofertas primeiro!</h2>
+            <p>Assine nossa newsletter.</p>
+
+            <form>
+                <label for="email"></label>
+                <input type="email" id="email" placeholder="Seu endereço de email" required>
+                <button type="submit">Inscreva-se</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Contato</h2>
+            <p>Deixe-nos reservar sua próxima viagem!</p>
+            <ul>
+                <li>
+                    <i class="fa fa-map-marker"></i>
+                    <p>Chicago, EUA</p>
+                </li>
+                <li>
+                    <i class="fa fa-phone"></i>
+                    <p>Telefone: (11) 91515-1515</p>
+                </li>
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <p>Email: mail@mail.com</p>
+                </li>
+            </ul>
+
+            <form>
+                <input type="text" name="nome" placeholder="Nome" required>
+                <input type="email" name="email-contact" placeholder="Email" >
+                <textarea name="mensagem" placeholder="Mensagem" required></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Encontre-nos em</p>
+        <ul>
+            <li>
+                <a href="">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa fa-snapchat"></i>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa fa-pinterest-p"></i>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+        <p>Desenvolvido por <a href="https://github.com/rudneyviana">Rudney Viana</a></p>
+    </footer>
 </body>
 </html>
