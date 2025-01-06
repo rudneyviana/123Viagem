@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Raleway;
+}
+
+:root {
+    --branco: #FFFFFF;
+    --cinza-100: #F1F1F1;
+    --cinza-400: #757575;
+    --cinza-450: #666666;
+    --cinza-500: #616161;
+    --preto: #000000;
+    --laranja-100: #F38981;
+    --laranja-400: #F44336;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: var(--branco);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    color: var(--laranja-400);
+}
+
+header a .fa-map-marker {
+    font-size: 30px;
+}
+
+header button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+header button .fa-search {
+    font-size: 30px;
+    color: var(--cinza-400);
+}
