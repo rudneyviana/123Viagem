@@ -22,7 +22,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    padding: 10px 50px;
     background-color: var(--branco);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -50,4 +50,75 @@ header button {
 header button .fa-search {
     font-size: 30px;
     color: var(--cinza-400);
+}
+
+.inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./images/london.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inicio > div {
+    background-color: var(--branco);
+    width: 65%;
+}
+
+.inicio nav {
+    display: flex;
+}
+
+.inicio nav button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background-color: var(--preto);
+    color: var(--branco);
+    font-size: 16px;
+}
+
+.inicio nav button span {
+    margin-left: 10px;
+}
+
+.inicio nav button.active {
+    background-color: var(--laranja-400);
+}
+
+.inicio > div > div {
+    padding: 30px 15px;
+}
+
+.inicio > div > div h1 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.inicio form > div {
+    display: flex;
+    gap: 20px;
+}
+
+.inicio form > div > div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.inicio form input {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.inicio form button {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: var(--cinza-500);
+    color: var(--branco);
+    font-size: 14px;
+    border: none;
 }
