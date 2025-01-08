@@ -122,3 +122,27 @@ header button .fa-search {
     font-size: 14px;
     border: none;
 }
+
+.ofertas {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.ofertas div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.ofertas .foto-destaque {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    width: 100%;
+    height: 100%;
+}
+
+.ofertas img {
+    width: 100px;
+    height: 100px;
+}
