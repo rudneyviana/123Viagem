@@ -61,7 +61,7 @@ main section, footer {
     margin: 30px auto;
 }
 
-.inicio {
+#inicio {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,16 +74,16 @@ main section, footer {
     background-size: cover;
 }
 
-.inicio > div {
+#inicio > div {
     background-color: var(--branco);
     width: 65%;
 }
 
-.inicio nav {
+#inicio nav {
     display: flex;
 }
 
-.inicio nav button {
+#inicio nav button {
     flex: 1;
     padding: 10px;
     border: none;
@@ -92,41 +92,41 @@ main section, footer {
     font-size: 16px;
 }
 
-.inicio nav button span {
+#inicio nav button span {
     margin-left: 10px;
 }
 
-.inicio nav button.active {
+#inicio nav button.active {
     background-color: var(--laranja-400);
 }
 
-.inicio > div > div {
+#inicio > div > div {
     padding: 30px 15px;
 }
 
-.inicio > div > div h1 {
+#inicio > div > div h1 {
     font-weight: 400;
     font-size: 26px;
     margin-bottom: 20px;
 }
 
-.inicio form > div {
+#inicio form > div {
     display: flex;
     gap: 20px;
 }
 
-.inicio form > div > div {
+#inicio form > div > div {
     display: flex;
     flex-direction: column;
     flex: 1;
 }
 
-.inicio form input {
+#inicio form input {
     padding: 10px;
     font-size: 14px;
 }
 
-.inicio form button {
+#inicio form button {
     margin-top: 15px;
     padding: 15px;
     background-color: var(--cinza-500);
@@ -135,30 +135,30 @@ main section, footer {
     border: none;
 }
 
-.ofertas h2 {
+#ofertas h2 {
     margin: 0 0 20px;
     font-weight: 400;
     font-size: 26px;
 }
 
-.ofertas > p {
+#ofertas > p {
     margin: 0 0 15px;
     font-size: 18px;
 }
 
-.ofertas > div {
+#ofertas > div {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
 }
 
-.ofertas .foto-destaque {
+#ofertas .foto-destaque {
     grid-column: 1 / 3;
     grid-row: 1 / 3;
 }
 
-.ofertas img {
+#ofertas img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -176,18 +176,18 @@ main section, footer {
     font-size: 18px;
 }
 
-.natureza h2 {
+#natureza h2 {
     margin: 0 0 20px;
     font-weight: 400;
     font-size: 26px;
 }
 
-.natureza > p {
+#natureza > p {
     margin: 0 0 15px;
     font-size: 18px;
 }
 
-.natureza > div {
+#natureza > div {
     display: flex;
     gap: 20px;
 }
@@ -228,37 +228,37 @@ main section, footer {
     border: none;
 }
 
-.newsletter {
+#newsletter {
     background-color: var(--cinza-500);
     padding: 15px;
     color: var(--branco);
 }
 
-.newsletter h2 {
+#newsletter h2 {
     margin: 15px 0 20px;
     font-weight: 400;
     font-size: 26px;
 }
 
-.newsletter p {
+#newsletter p {
     margin-bottom: 15px;
 }
 
-.newsletter form {
+#newsletter form {
     display: flex;
     flex-direction: column;
 }
 
-.newsletter form label {
+#newsletter form label {
     margin-bottom: 5px;
 }
 
-.newsletter form input {
+#newsletter form input {
     padding: 10px;
     margin-bottom: 15px;
 }
 
-.newsletter form button {
+#newsletter form button {
     width: 100px;
     padding: 10px;
     background-color: var(--laranja-100);
