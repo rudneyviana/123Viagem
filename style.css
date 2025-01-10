@@ -320,3 +320,24 @@ main section, footer {
     cursor: pointer;
     font-weight: 500;
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+footer * {
+    color: var(--cinza-500);
+}
+
+footer ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+footer ul a {
+    font-size: 22px;
+}
