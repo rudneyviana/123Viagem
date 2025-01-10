@@ -90,6 +90,7 @@ main section, footer {
     background-color: var(--preto);
     color: var(--branco);
     font-size: 16px;
+    cursor: pointer;
 }
 
 #inicio nav button span {
@@ -133,6 +134,7 @@ main section, footer {
     color: var(--branco);
     font-size: 14px;
     border: none;
+    cursor: pointer;
 }
 
 #ofertas h2 {
@@ -259,12 +261,62 @@ main section, footer {
 }
 
 #newsletter form button {
-    width: 100px;
-    padding: 10px;
+    width: fit-content;
+    padding: 10px 15px;
     background-color: var(--laranja-100);
     color: var(--branco);
     outline: none;
     border: none;
     font-weight: 500;
     cursor: pointer;
+}
+
+#contato h2 {
+    margin: 15px 0 20px;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+#contato > p {
+    margin-bottom: 15px;
+}
+
+#contato ul {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+#contato ul li {
+    display: flex;
+    gap: 20px;
+}
+
+#contato ul li i {
+    width: 15px;
+}
+
+#contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#contato form input {
+    padding: 10px;
+}
+
+#contato form textarea {
+    padding: 10px;
+    resize: none;
+}
+
+#contato form button {
+    width: fit-content;
+    padding: 10px 15px;
+    background-color: var(--preto);
+    color: var(--branco);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
 }
