@@ -10,6 +10,7 @@
 :root {
     --branco: #FFFFFF;
     --cinza-100: #F1F1F1;
+    --cinza-200: #CCCCCC;
     --cinza-400: #757575;
     --cinza-450: #666666;
     --cinza-500: #616161;
@@ -83,7 +84,7 @@ main section, footer {
     display: flex;
 }
 
-#inicio nav button {
+.btn-service {
     flex: 1;
     padding: 10px;
     border: none;
@@ -93,11 +94,21 @@ main section, footer {
     cursor: pointer;
 }
 
-#inicio nav button span {
+.btn-service:hover {
+    background-color: var(--cinza-200);
+    color: var(--preto);
+}
+
+.btn-service.active:hover {
+    background-color: var(--cinza-200);
+    color: var(--preto);
+}
+
+.btn-service span {
     margin-left: 10px;
 }
 
-#inicio nav button.active {
+.btn-service.active {
     background-color: var(--laranja-400);
 }
 
@@ -127,7 +138,7 @@ main section, footer {
     font-size: 14px;
 }
 
-#inicio form button {
+.btn-search {
     margin-top: 15px;
     padding: 15px;
     background-color: var(--cinza-500);
@@ -135,6 +146,11 @@ main section, footer {
     font-size: 14px;
     border: none;
     cursor: pointer;
+}
+
+.btn-search:hover {
+    background-color: var(--cinza-200);
+    color: var(--preto);
 }
 
 #ofertas h2 {
